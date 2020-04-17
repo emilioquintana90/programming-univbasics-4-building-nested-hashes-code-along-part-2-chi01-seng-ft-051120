@@ -37,7 +37,6 @@ def add_characters
          :patriarch => {name: "Lord Montague", age: "53"},
          :matriarch => {name: "Lady Montague", age: "54"},
          :hero => {name: "Romeo", age: "15", status: "alive"},
-         :additional_characters => [{name: "Prince Escalus"},{name: "Apothecary"}],
          :hero_friends => [
             {name: "Benvolio", age: "17", attitude: "worried"},
             {name: "Mercutio", age: "18", attitude: "hot-headed"}
@@ -51,7 +50,8 @@ def add_characters
          {name: "Steven", age: "30", attitude: "confused"},
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
-      }
+      },
+      :additional_characters => [{name: "Prince Escalus"},{name: "Apothecary"}]
    }
 
    # Write code below that does the following programmatically:
